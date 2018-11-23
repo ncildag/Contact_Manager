@@ -1,0 +1,80 @@
+main {
+
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#kaydet{
+    background-color: #5cb3db;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+#sil {
+    background-color:#e95d5d;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+#search {
+    background-color:#f5c56c;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+
+}
+
+section{
+    padding-right: 60px;
+}
+
+section table{ 
+border: #5cb3db 2px solid;
+
+
+}
+
+table td {
+    border: #5cb3db;
+    border:1px dotted;
+}
+
+table thead{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #e95d5d;
+    
+}

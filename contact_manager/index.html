@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IT club - Contact Manager</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+        <h1>CONTACT MANAGER</h1>
+    <main>
+
+        <section>
+            
+            <nav>
+                <input id="search" type="search" placeholder="A-Z"/>
+                <button id="search">SEARCH</button>
+            </nav>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                        <th>Telephone</th>
+                        <th>Email_2</th>
+                        <th>Email_3</th>
+                        <th>Telephone_2</th>
+                        <th>Telephone_3</th>
+                        
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <!-- Buraya kayitli contact lar yerlestirilecek -->
+                </tbody>
+            </table>
+        </section>
+
+    
+        <section>
+            <form>
+                <label for="firstname">Firstname</label>
+                <input id="firstName" type="text"/>
+                <br>
+                <label for="lastname">Lastname</label>
+                <input id="lastName" type="text" />
+                <br>
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="example@example.com" />
+                <br>
+                <label for="email2">Email</label>
+                <input id="email2" type="email" placeholder="example@example.com" />
+                <br>
+                <label for="phone">Phone Number</label>
+                <input id="phoneNumber" type="number"/>
+                <br>
+                <label for="phone">Phone Number 2</label>
+                <input id="phoneNumber2" type="number"/>
+                <br>
+                <button id="kaydet" value="Kaydet" >Kaydet</button>
+                <button id="sil" value="Sil">Sil</button>
+                
+            </form>        
+        </section>
+    </main>
+
+    
+    <script src="js/model.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>
